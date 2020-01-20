@@ -6,7 +6,7 @@
         homepage-example
       </h1>
       <h2 class="subtitle">
-        My polished Nuxt.js project
+        My polished Nuxt.js project that will never be so pretty again. I mean, look at it
       </h2>
       <div class="links">
         <a
@@ -35,11 +35,11 @@ export default {
   components: {
     Logo
   },
-    head() {
+  head () {
     return {
-      script: [{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }],
-    };
-  },
+      script: [{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }]
+    }
+  }
 
 }
 </script>
